@@ -1,0 +1,43 @@
+.menu-heading {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*Apply specified family, size, margin, and color to h1-h4*/
+
+p {
+    color: rgb(148, 81, 4);
+    font-style: italic;  
+}
+
+h1 {
+    color: rgb(92, 32, 32);
+    font-family: Arial, sans-serif;
+    font-size: 34px;
+    margin: 2px;
+    size: 34px;
+}
+
+h2 {
+    color: rgb(231, 9, 9);
+    font-family: Arial, sans-serif;
+    font-size: 32px; 
+    margin: 10px;
+}
+h3 {
+    color: rgb(250, 115, 4);
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    margin: 3px;
+}
+h4 {
+    color: rgb(229, 4, 250);
+    font-family: Arial, sans-serif;
+    font-size: 28px;
+    margin: 30px;
+    /*currently, there is no h4*/
+}
+body {
+background-color: rgba(231, 217, 28, 0.048);
+}
