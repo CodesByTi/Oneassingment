@@ -47,6 +47,21 @@ h4 {
     font-size: 26px;
     margin: 5px;
 }
+footer {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin: 0;
+}
+
+.social-media-container { /* i took the list items out of the footer this is their own container*/
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    gap: 20px; /* For Space between icons */
+}
+
+
 
 body {
     background-color: rgba(231, 217, 28, 0.048);
