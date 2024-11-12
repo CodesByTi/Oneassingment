@@ -47,18 +47,28 @@ h4 {
     font-size: 26px;
     margin: 5px;
 }
-footer {
+/*footer {
     display: flex;
     justify-content: center;
     height: 100px;
     margin: 0;
+}*/
+
+.food-folder-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-.social-media-container { /* i took the list items out of the footer this is their own container*/
+.social-media-container { /* took the list items out of the footer this is their own container*/
     display: flex;
-    margin: 0px;
+    margin: 10px;
+    align-items: center;
     justify-content: center;
-    gap: 20px; /* For Space between icons */
+    gap: 5px; /* For Space between icons */
+    flex-wrap: nowrap;
+    flex-direction: row;
 }
 
 
@@ -66,3 +76,5 @@ footer {
 body {
     background-color: rgba(231, 217, 28, 0.048);
 }
+
+
